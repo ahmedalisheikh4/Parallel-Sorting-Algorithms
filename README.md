@@ -41,7 +41,7 @@ By evaluating execution time, scalability, and efficiency, this project explores
 git clone https://github.com/yourusername/Parallel-Sorting-Algorithms.git
 cd Parallel-Sorting-Algorithms
 ```
-### **2️⃣ Compile & Run
+### **2️⃣ Compile & Run**
 🔹 Serial Execution
 ```sh
 gcc bubble_sort.c -o bubble_sort
@@ -58,3 +58,9 @@ gcc -fopenmp quick_sort.c -o quick_sort
 mpicc -o mpi_merge_sort mpi_merge_sort.c
 mpirun -np 4 ./mpi_merge_sort
 ```
+## 🔬 Research Contribution
+###This project aims to: 
+✅ Identify the most efficient sorting techniques for large-scale datasets.
+✅ Compare shared-memory vs. distributed-memory performance.
+✅ Optimize sorting algorithms using parallel computing strategies.
+✅ Provide open-source implementations for further research.
