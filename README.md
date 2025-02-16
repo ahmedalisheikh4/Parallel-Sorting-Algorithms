@@ -59,7 +59,7 @@ mpicc -o mpi_merge_sort mpi_merge_sort.c
 mpirun -np 4 ./mpi_merge_sort
 ```
 ## 🔬 Research Contribution
-###This project aims to: 
+### **This project aims to:** 
 ✅ Identify the most efficient sorting techniques for large-scale datasets.
 ✅ Compare shared-memory vs. distributed-memory performance.
 ✅ Optimize sorting algorithms using parallel computing strategies.
